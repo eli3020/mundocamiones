@@ -1,0 +1,44 @@
+.company-name {
+    margin-left: 10px; 
+   
+  }
+.nav-link:hover {
+    color: rgb(76, 91, 228); /* Cambia el color al pasar el cursor por ensima de las letras  */
+    text-decoration: underline;
+
+}  
+.login-link {
+    border: 2px solid #e7c21c; /* Grosor y color del borde */
+    padding: 4px 10px; /* Espaciado interno del cuadro */
+    border-radius: 9px; /* Bordes redondeados */
+    display: inline-block; /* Para que el cuadro se ajuste al contenido */
+    text-decoration: none; /* Para quitar el subrayado del enlace */
+    margin: 10px;
+    transition: border 0.3s, box-shadow 0.3s; /* Transición suave para el borde y la sombra */
+}
+
+.login-link:hover {
+    border-color: #3f17ce; /* Cambia el color del borde al pasar el cursor */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Añade sombra alrededor del enlace */
+}
+.custom-font {
+    font-family: "Courier New", monospace; 
+}
+
+.custom-font {
+    text-transform: uppercase; /* Texto en mayúsculas */
+    font-size: 20px; /* Tamaño de fuente */
+    color: #000; /* Color de texto */
+}
+.custom-card-border {
+    border-color: #FFC700;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2)  
+}
+.card{
+    background-color: #f0f0f0; /* Color de fondo */
+    border-radius: 10px; /* Borde redondeado */
+    padding: 20px; /* Espacio interno */
+    margin-bottom: 20px; /* Margen inferior */
+    border-color: #FFC700;
+    
+}
